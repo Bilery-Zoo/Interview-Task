@@ -1,0 +1,34 @@
+"""
+author  : Bilery Zoo(652645572@qq.com)
+time    : 2018-05-24
+file    : *_* Program manual *_*
+"""
+
+
+About Program
+	This program is to convert strings you inputted with each word spelled in reverse and case sensitive remained.
+	For example
+		Input:  Many people spell MySQL incorrectly
+		Output: Ynam elpoep lleps LqSYM yltcerrocni
+	The strings have these limitations:
+		①contain only alphabet (a-z and A-Z) and space
+		②each word separated by exactly one space
+		③no spaces before or after the line
+	
+    
+About File	
+	①convertexception.py
+		Exception definition of convert function.
+	②convert.py
+		String convert handler.
+	③main.py
+		Main call.
+		
+		
+About Execution
+	Run "main.py". For example like this：
+		python main.py
+			
+			
+About Debug
+	The author has tested it on his local(Linux ubuntu 4.4.0-124-generic / Python 2.7.12) and it works as design.
